@@ -4,9 +4,10 @@
 from collections import defaultdict
 
 import build_model
-import pddl_to_prolog
 import pddl
+import pddl_to_prolog
 import timers
+
 
 def get_fluent_facts(task, model):
     fluent_predicates = set()
