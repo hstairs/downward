@@ -695,6 +695,8 @@ def instantiate_dump(task):
         for axiom in axioms:
             axiom.dump()
             print()
+        print(reachable_action_params)
+
 
 
 def main():
